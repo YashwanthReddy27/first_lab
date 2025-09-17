@@ -27,4 +27,13 @@ def test_fun4():
     assert calculator.fun4 (-1, -1, -1) == -3
     
     assert calculator.fun4 (-1, -1, 100) == 98
+
+#my tests for float values
+def test_fun5():
+    assert calculator.fun1(2.5, 3.5) == 6.0
+    assert calculator.fun2(5.5,0.5) == 5.0
+    assert calculator.fun3 (-1.5, 1.5) == -2.25
+    assert calculator.fun4 (-1.5, -1.5, -1.5) == -4.5
+
+    assert calculator.fun4 (-1.5, -1.5, 100.5) == 97.5
     

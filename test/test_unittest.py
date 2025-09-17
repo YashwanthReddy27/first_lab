@@ -35,6 +35,14 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.fun4(5, 0, -1), 4)
         self.assertEqual(calculator.fun4(-1, -1, -1), -3)
         self.assertEqual(calculator.fun4(-1, -1, 100), 98)
+    
+    # my tests for float values
+    def test_fun5(self):
+        self.assertEqual(calculator.fun1(2.5, 3.5), 6.0)
+        self.assertEqual(calculator.fun2(5.5, 0.5), 5.0)
+        self.assertEqual(calculator.fun3(-1.5, 1.5), -2.25)
+        self.assertEqual(calculator.fun4(-1.5, -1.5, -1.5), -4.5)
+        self.assertEqual(calculator.fun4(-1.5, -1.5, 100.5), 97.5)
 
 
 
