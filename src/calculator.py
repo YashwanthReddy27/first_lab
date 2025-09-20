@@ -57,6 +57,13 @@ def fun4(x,y,z):
     total_sum = x + y + z
     return total_sum
 
+def fun5(x,y):
+    """
+    Square root of the sum of two numbers.
+    """
+    sqrt_sum = (x + y) ** 0.5
+    return sqrt_sum
+
 
 # f1_op = fun1(2,3)
 # f2_op = fun2(2,3)
